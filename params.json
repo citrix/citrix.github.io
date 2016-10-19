@@ -1,6 +1,6 @@
 {
   "name": "Citrix.GitHub.io",
   "tagline": "Citrix Open Source Projects and SDKs",
-  "body": "### Welcome to Citrix SDKs\r\nUse the Citrix SDKs to extend and customize your Citrix environment. This site is under development, so please watch for new SDK additions.\r\n\r\n## AppDNA SDK\r\n\r\n## StoreFront SDK\r\n\r\n## Desktop Delivery Controller SDK\r\n\r\n## Desktop Director SDK\r\n\r\n## Citrix Receiver for HTML5 SDK\r\n\r\n## XenServer SDK",
+  "body": "# Welcome to Citrix SDKs\r\nUse the Citrix SDKs to extend and customize your Citrix environment. This site is under development, so please watch for new SDK additions.\r\n\r\n## [AppDNA SDK](https://citrix.github.io/AppDNA-SDK/)\r\n\r\n## StoreFront SDK\r\n\r\n## Desktop Delivery Controller SDK\r\n\r\n## Desktop Director SDK\r\n\r\n## Citrix Receiver for HTML5 SDK\r\n\r\n## XenServer SDK",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
