@@ -19,7 +19,7 @@
     },
     {
         "title":"PowerShell SDK",
-        "description":"Citrix Powershell CMDLet reference",
+        "description":"SDK documentation for the Citrix Powershell CMDLet reference",
         "link":"https://citrix.github.io/powershell-sdk/",
         "active":true
     },
