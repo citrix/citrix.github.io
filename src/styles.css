@@ -1,0 +1,155 @@
+/* You can add global styles to this file, and also import other style files *//* Master Styles */
+a.disabled
+{
+    color: gray;
+    cursor: not-allowed;
+    text-decoration: underline;
+}
+/* my overrides */
+.container-fluid
+{
+ padding-left:0;
+ padding-right:0;
+}
+.carousel-indicators li
+{
+    border-color: #1879B9;
+}
+.carousel-indicators .active
+{
+    background-color: #1879B9;
+}
+.panel
+{
+    border:none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.panel-heading
+{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.panel-title
+{
+    font-size: 30px;
+}
+.panel-primary {
+  border-color: #1879B9;
+}
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #1879B9;
+  border-color: #1879B9;
+    font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight:100;
+}
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #1879B9;
+}
+.panel-primary > .panel-heading .badge {
+  color: #1879B9;
+  background-color: #fff;
+
+}
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #1879B9;
+}
+
+.panel-documentation {
+  border-color: #23AAE2;
+}
+.panel-documentation > .panel-heading {
+  color: #fff;
+  background-color: #23AAE2;
+  border-color: #23AAE2;
+    font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight:100;
+}
+.panel-documentation > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #23AAE2;
+}
+.panel-documentation > .panel-heading .badge {
+  color: #23AAE2;
+  background-color: #fff;
+}
+.panel-documentation > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #23AAE2;
+}
+
+/* end of override */
+body 
+{
+  
+    font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight:100;
+}
+.section label
+{
+  color: #FFFFFF;
+  font-size: 30px;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.bs-callout {
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0px solid #eee;
+    border-left-width: 5px;
+    border-radius: 0px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}

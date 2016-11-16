@@ -1,0 +1,13 @@
+<div class="panel panel-documentation">
+    <div class="panel-heading text-center">
+        <h3 class="panel-title">SDK Documentation</h3>
+    </div>
+    <div class="panel-body">
+        <div *ngFor="let documentationItem of documentationList" [class]="getStyles(documentationItem.active)">
+            <h4><a [class.disabled]="!checkIfActive(documentationItem.active)" [href]="checkIfActive(documentationItem.active) ? documentationItem.link : '#'">{{ documentationItem.title }}</a></h4>
+            <p>
+                {{documentationItem.description }}
+            </p>
+        </div>
+    </div>
+</div>

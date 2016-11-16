@@ -1,0 +1,38 @@
+[
+    {
+        "title":"Ingress Controller for Citrix NetScaler",
+        "description":"This Ingress controller uses a Citrix NetScaler VPX/MPX to provide Ingress Load Balancing to Kubernetes Services. Before you begin configuring NetScaler MPX/VPX, the expectation is to have a Kubernetes cluster configured and running. The configuration has been tested on baremetal and is not expected to work for Cloud hosted cluster (GKE / AWS)",
+        "image":"/assets/images/GitHub-Mark-32px.png",
+        "link":"https://github.com/citrix/kube-ingress-citrix-netscaler"
+    },
+    {
+        "title":"Citrix Storefront API Android Sample",
+        "description":"This sample is meant to show you how to interact with the Citrix Storefront API to authenticate, List your available resources, and generate an ICA file that you can then pass on to something like Citrix Receiver to handle the connection.",
+        "image":"/assets/images/android-sf-oss.png",
+        "link":"https://github.com/citrix/Storefront-API-Android-Sample"
+    },
+    {
+        "title":"Citrix Storefront API Xamarin Sample",
+        "description":"This sample is meant to show you how to interact with the Citrix Storefront API to authenticate, List your available resources, and generate an ICA file that you can then pass on to something like receiver to handle the connection.",
+        "image":"/assets/images/GitHub-Mark-32px.png",
+        "link":"https://github.com/citrix/Storefront-API-Xamarin-Sample"
+    },
+    {
+        "title":"Citrix Desktop Notification Tool for Xendesktop",
+        "description":"Administrators monitoring XenDesktop have to be logged into Director console or keep checking mails regularly for any possible critical alerts that might affect users of XenDesktop. Instead Desktop Notification Tool notifies the administrators with desktop notifications whenever there is a new alert from any of the numerous sites for which alert policies/alert rules are configured.",
+        "image":"/assets/images/GitHub-Mark-32px.png",
+        "link":"https://github.com/citrix/Citrix-Desktop-Notification-Tool-for-Xendesktop"
+    },
+    {
+        "title":"ShareFile PowerShell SDK",
+        "description":"The ShareFile PowerShell SDK is a PowerShell snap-in that provides support for saving a user login for use in scripts, provides access to the ShareFile API, and also a provider that can be used within PowerShell to map to a ShareFile account.",
+        "image":"/assets/images/GitHub-Mark-32px.png",
+        "link":"https://github.com/citrix/ShareFile-PowerShell"
+    },
+    {
+        "title":"Citrix Storefront Manager Approval Site",
+        "description":"This is an Approval/Denial web suite for managers to approve or deny a request for an application available via Storefront. This works in conjuction with the Citrix-Storefront-ApprovalMonitoring repository",
+        "image":"/assets/images/GitHub-Mark-32px.png",
+        "link":"https://github.com/citrix/Citrix-Storefront-ManagerApprovalSite"
+    }
+]

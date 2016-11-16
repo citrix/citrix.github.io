@@ -1,0 +1,22 @@
+<div class="panel panel-primary">
+    <div class="panel-heading text-center">
+        <h3 class="panel-title">Open Source Projects and Samples</h3>
+    </div>
+    <div class="panel-body">
+        <div class="row" *ngFor='let row of rows; let i=index' style="margin-bottom:15px;">
+            <div class="col-sm-6" *ngFor="let col of row">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="{{ col.link }}">
+                            <img width="50" height="50" class="media-object" src="{{ col.image }}" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">{{ col.title }}</h4>
+                        {{ col.description }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
