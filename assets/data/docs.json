@@ -1,0 +1,38 @@
+[
+    {
+        "title":"Delivery Controller SDK",
+        "description":"XenApp and XenDesktop provide an SDK based on a number of Microsoft Windows PowerShell version 3.0 snap-ins that allows you to perform the same tasks as you would with the Citrix Studio console, together with tasks you cannot do with Studio alone.",
+        "link":"https://citrix.github.io/delivery-controller-sdk/",
+        "active":true
+    },
+    {
+        "title":"AppDNA SDK",
+        "description":"Use the AppDNA SDK to embed AppDNA functionality within a familiar process or user interface, or to embed it within a simple webpage.",
+        "link":"https://citrix.github.io/AppDNA-SDK/",
+        "active":true
+    },
+    {
+        "title":"Citrix Receiver for HTML5 SDK",
+        "description":"Use the Citrix Receiver for HTML5 SDK to enhance support for HDX sessions and to build a rich app experience in your Enterprise portals with the Receiver for HTML5.",
+        "link":"https://citrix.github.io/receiver-html5-sdk/",
+        "active":true
+    },
+    {
+        "title":"PowerShell SDK",
+        "description":"Citrix Powershell CMDLet reference",
+        "link":"https://citrix.github.io/powershell-sdk/",
+        "active":true
+    },
+    {
+        "title":"StoreFront SDK",
+        "description":"(coming soon)",
+        "link":"#",
+        "active":false
+    },
+    {
+        "title":"XenServer SDK",
+        "description":"(coming soon)",
+        "link":"#",
+        "active":false
+    }
+]

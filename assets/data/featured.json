@@ -1,0 +1,14 @@
+[
+    {
+        "title":"XenServer",
+        "description":"XenServer is and always has been based on open source software, and going forward it will be built using the upstream codebase from the Linux Foundation's  Xen Project. XenServer is a Linux distribution that is based on the Xen hypervisor, the Linux kernel, and the CentOS Linux distribution and user tools.",
+        "image":"https://avatars2.githubusercontent.com/u/4669806?v=3&s=64",
+        "link":"https://github.com/xenserver"
+    },
+    {
+        "title":"Octoblu",
+        "description":"Octoblu enables companies to create IoT services with secure real-time exchange of data. The services are built an open communications and management platform that supports a variety of protocols for physical devices to communicate seamlessly with each other, people, legacy applications, and cloud services.",
+        "image":"https://avatars2.githubusercontent.com/u/5607067?v=3&s=64",
+        "link":"https://github.com/octoblu"
+    }
+]
