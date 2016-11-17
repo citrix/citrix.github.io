@@ -24,13 +24,19 @@
         "active":true
     },
     {
-        "title":"StoreFront SDK",
-        "description":"(coming soon)",
-        "link":"#",
-        "active":false
+        "title":"XenServer SDK",
+        "description":"Reference guide for Citrix XenServer SDK",
+        "link":"https://citrix.github.io/xenserver-sdk/",
+        "active":true
     },
     {
-        "title":"XenServer SDK",
+        "title":"Citrix Director SDK",
+        "description":"Reference guide for the Citrix Director SDK",
+        "link":"https://citrix.github.io/desktop-director-sdk/",
+        "active":true
+    },
+    {
+        "title":"StoreFront SDK",
         "description":"(coming soon)",
         "link":"#",
         "active":false
