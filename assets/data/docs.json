@@ -18,12 +18,6 @@
         "active":true
     },
     {
-        "title":"PowerShell SDK",
-        "description":"SDK documentation for the Citrix Powershell CMDLet reference",
-        "link":"https://citrix.github.io/powershell-sdk/",
-        "active":true
-    },
-    {
         "title":"XenServer SDK",
         "description":"Reference guide for Citrix XenServer SDK",
         "link":"https://citrix.github.io/xenserver-sdk/",
@@ -37,8 +31,8 @@
     },
     {
         "title":"StoreFront SDK",
-        "description":"(coming soon)",
-        "link":"#",
-        "active":false
+        "description":"The Citrix StoreFront Web API and SDK are programming interfaces to Citrix StoreFront services.",
+        "link":"https://citrix.github.io/storefront-sdk/",
+        "active":true
     }
 ]
