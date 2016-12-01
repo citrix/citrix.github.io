@@ -6,12 +6,6 @@
         "active":true
     },
     {
-        "title":"AppDNA SDK",
-        "description":"Use the AppDNA SDK to embed AppDNA functionality within a familiar process or user interface, or to embed it within a simple webpage.",
-        "link":"https://citrix.github.io/AppDNA-SDK/",
-        "active":true
-    },
-    {
         "title":"Citrix Receiver for HTML5 SDK",
         "description":"Use the Citrix Receiver for HTML5 SDK to enhance support for HDX sessions and to build a rich app experience in your Enterprise portals with the Receiver for HTML5.",
         "link":"https://citrix.github.io/receiver-html5-sdk/",
