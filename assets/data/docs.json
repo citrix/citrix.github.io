@@ -3,30 +3,35 @@
         "title":"Delivery Controller SDK",
         "description":"XenApp and XenDesktop provide an SDK based on a number of Microsoft Windows PowerShell version 3.0 snap-ins that allows you to perform the same tasks as you would with the Citrix Studio console, together with tasks you cannot do with Studio alone.",
         "link":"https://citrix.github.io/delivery-controller-sdk/",
-        "active":true
+        "active":true,
+        "versiontext":"Version 7.11"
     },
     {
         "title":"Citrix Receiver for HTML5 SDK",
         "description":"Use the Citrix Receiver for HTML5 SDK to enhance support for HDX sessions and to build a rich app experience in your Enterprise portals with the Receiver for HTML5.",
         "link":"https://citrix.github.io/receiver-html5-sdk/",
-        "active":true
+        "active":true,
+        "versiontext":""
     },
     {
         "title":"XenServer SDK",
         "description":"Reference guide for Citrix XenServer SDK",
         "link":"https://citrix.github.io/xenserver-sdk/",
-        "active":true
+        "active":true,
+        "versiontext":""
     },
     {
         "title":"Monitor Service OData API",
         "description":"Reference guide for the Monitor Service OData API",
         "link":"https://citrix.github.io/monitor-service-odata-api/",
-        "active":true
+        "active":true,
+        "versiontext":""
     },
     {
         "title":"StoreFront SDK",
         "description":"The Citrix StoreFront Web API and SDK are programming interfaces to Citrix StoreFront services.",
         "link":"https://citrix.github.io/storefront-sdk/",
-        "active":true
+        "active":true,
+        "versiontext":""
     }
 ]

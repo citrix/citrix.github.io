@@ -55868,7 +55868,7 @@ module.exports = "<div class=\"row\">\n    <div class=\"col-sm-12\">\n        <i
 /* 601 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"panel panel-documentation\">\n    <div class=\"panel-heading text-center\">\n        <h3 class=\"panel-title\">SDK Documentation</h3>\n    </div>\n    <div class=\"panel-body\">\n        <div *ngFor=\"let documentationItem of documentationList\" [class]=\"getStyles(documentationItem.active)\">\n            <h4><a [class.disabled]=\"!checkIfActive(documentationItem.active)\" [href]=\"checkIfActive(documentationItem.active) ? documentationItem.link : '#'\">{{ documentationItem.title }}</a></h4>\n            <p>\n                {{documentationItem.description }}\n            </p>\n        </div>\n    </div>\n</div>"
+module.exports = "<div class=\"panel panel-documentation\">\n    <div class=\"panel-heading text-center\">\n        <h3 class=\"panel-title\">SDK Documentation</h3>\n    </div>\n    <div class=\"panel-body\">\n        <div *ngFor=\"let documentationItem of documentationList\" [class]=\"getStyles(documentationItem.active)\">\n            <h4><a [class.disabled]=\"!checkIfActive(documentationItem.active)\" [href]=\"checkIfActive(documentationItem.active) ? documentationItem.link : '#'\">{{ documentationItem.title }}</a></h4>\n            <div><b>{{ documentationItem.versiontext }}</b></div>\n            <p>\n                {{documentationItem.description }}\n            </p>\n        </div>\n    </div>\n</div>"
 
 /***/ },
 /* 602 */
