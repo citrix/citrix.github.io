@@ -5,6 +5,7 @@
     <div class="panel-body">
         <div *ngFor="let documentationItem of documentationList" [class]="getStyles(documentationItem.active)">
             <h4><a [class.disabled]="!checkIfActive(documentationItem.active)" [href]="checkIfActive(documentationItem.active) ? documentationItem.link : '#'">{{ documentationItem.title }}</a></h4>
+            <div><b>{{ documentationItem.versiontext }}</b></div>
             <p>
                 {{documentationItem.description }}
             </p>
