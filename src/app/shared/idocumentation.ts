@@ -4,4 +4,5 @@ export interface IDoc
     description:string;
     link:string;
     active:boolean;
+    versiontext:string;
 }
