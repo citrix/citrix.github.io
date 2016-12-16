@@ -14,6 +14,13 @@
         "versiontext":""
     },
     {
+        "title":"AppDNA SDK",
+        "description":"The AppDNA SDK enables you to provide AppDNA within a process or user interface that your users are familiar with, or within a simple web page. These topics introduce the AppDNA software development kit (SDK), describe what data is available, and how to develop using the AppDNA SDK.",
+        "link":"https://citrix.github.io/AppDNA-SDK/",
+        "active":true,
+        "versiontext":"Version 7.11"
+    },
+    {
         "title":"XenServer SDK",
         "description":"Reference guide for Citrix XenServer SDK",
         "link":"https://citrix.github.io/xenserver-sdk/",
