@@ -40,7 +40,7 @@
         "link":"https://citrix.github.io/storefront-sdk/",
         "active":true,
         "versiontext":""
-    }
+    },
     {
         "title":"Provisioning Services SOAP Server Programmer's Guide",
         "description":"Use Provisioning Services' SOAP Server programming interface to manage your implementation from a command line or from scripts.",
