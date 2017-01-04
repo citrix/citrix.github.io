@@ -47,5 +47,12 @@
         "link":"https://citrix.github.io/provisioning-services-sdk/",
         "active":true,
         "versiontext":"Version 7.12"
+    },
+    {
+	"title":"Citrix XenServer Management API",
+	"description":"The Citrix XenServer Management API is an API for remotely configuring and controlling virtualised guests running on a XenServer pool.",
+	"link":"https://citrix.github.io/xenserver-management-api/",
+	"active":true,
+	"versiontext":"Version 7.0"
     }
 ]
