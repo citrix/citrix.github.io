@@ -1,5 +1,11 @@
 [
     {
+        "title":"Yeoman sample scaffolder for Citrix Netscaler",
+        "description":"This Yeoman generator will help you build up a samples application, using .NET core, that targets the Netscaler NITRo/REST API.",
+        "image":"http://yeoman.io/static/yeoman-02.83c46c7213.png",
+        "link":"https://github.com/citrix/generator-citrix-netscaler"
+    },
+    {
         "title":"Ingress Controller for Citrix NetScaler",
         "description":"This Ingress controller uses a Citrix NetScaler VPX/MPX to provide Ingress Load Balancing to Kubernetes Services. Before you begin configuring NetScaler MPX/VPX, the expectation is to have a Kubernetes cluster configured and running. The configuration has been tested on baremetal and is not expected to work for Cloud hosted cluster (GKE / AWS)",
         "image":"/assets/images/GitHub-Mark-32px.png",
