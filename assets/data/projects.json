@@ -1,5 +1,11 @@
 [
     {
+        "title":"Sample of an outlook task pane that displays your Citrix applications",
+        "description":"A sample that shows how to build an outlook task pane that uses the Citrix Storefront WebAPI to display the users specific set of applications. This sample also shows how to launch retrieve and launch the selected application",
+        "image":"/assets/images/outlook.png",
+        "link":"https://github.com/citrix/Storefront-Outlook"
+    },
+    {
         "title":"Yeoman sample scaffolder for Citrix Netscaler",
         "description":"This Yeoman generator will help you build up a samples application, using .NET core, that targets the Netscaler NITRo/REST API.",
         "image":"http://yeoman.io/static/yeoman-02.83c46c7213.png",
