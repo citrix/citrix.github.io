@@ -49,31 +49,38 @@
         "versiontext":"Version 7.12"
     },
     {
-	"title":"Citrix XenServer Management API",
-	"description":"The Citrix XenServer Management API is an API for remotely configuring and controlling virtualised guests running on a XenServer pool.",
-	"link":"https://citrix.github.io/xenserver-management-api/",
-	"active":true,
-	"versiontext":"Version 7.0"
+	      "title":"Citrix XenServer Management API",
+	      "description":"The Citrix XenServer Management API is an API for remotely configuring and controlling virtualised guests running on a XenServer pool.",
+	      "link":"https://citrix.github.io/xenserver-management-api/",
+	      "active":true,
+	      "versiontext":"Version 7.0"
     },
     {
-    "title":"Citrix Virtual Channel SDK for Android",
-    "description":"The Citrix Virtual Channel Software Development Kit (SDK) provides support for writing server-side applications and client-side drivers for additional virtual channels using the ICA protocol.",
-    "link":"https://citrix.github.io/receiver-for-android-virtual-channel-sdk/",
-    "active":true,
-    "versiontext":""
+        "title":"Citrix Virtual Channel SDK for Android",
+        "description":"The Citrix Virtual Channel Software Development Kit (SDK) provides support for writing server-side applications and client-side drivers for additional virtual channels using the ICA protocol.",
+        "link":"https://citrix.github.io/receiver-for-android-virtual-channel-sdk/",
+        "active":true,
+        "versiontext":""
     },
     {
-    "title":"Fast Connect 3 Credential Insertion API for Citrix Receiver for Windows",
-    "description":"The Fast Connect 3 Credential Insertion API provides an interface that supplies user credentials to the single sign-on (SSO) feature of Citrix Receiver for Windows 4.2 and later.",
-    "link":"https://citrix.github.io/fast-connect-api-for-receiver-for-windows/",
-    "active":true,
-    "versiontext":""
+        "title":"Fast Connect 3 Credential Insertion API for Citrix Receiver for Windows",
+        "description":"The Fast Connect 3 Credential Insertion API provides an interface that supplies user credentials to the single sign-on (SSO) feature of Citrix Receiver for Windows 4.2 and later.",
+        "link":"https://citrix.github.io/fast-connect-api-for-receiver-for-windows/",
+        "active":true,
+        "versiontext":""
     },
     {
-    "title":"Citrix Virtual Channel SDK for Windows",
-    "description":"The Citrix Virtual Channel Software Development Kit (SDK) provides support for writing server-side applications and client-side drivers for additional virtual channels using the ICA protocol.",
-    "link":"https://citrix.github.io/receiver-for-windows-virtual-channel-sdk/",
-    "active":true,
-    "versiontext":""
+        "title":"Citrix Virtual Channel SDK for Windows",
+        "description":"The Citrix Virtual Channel Software Development Kit (SDK) provides support for writing server-side applications and client-side drivers for additional virtual channels using the ICA protocol.",
+        "link":"https://citrix.github.io/receiver-for-windows-virtual-channel-sdk/",
+        "active":true,
+        "versiontext":""
+    },
+    {
+        "title":"Citrix Virtual Channel SDK for Citrix Receiver for Windows",
+        "description":"The Citrix Virtual Channel Software Development Kit (SDK) provides support for writing server-side applications and client-side drivers for additional virtual channels using the ICA protocol.",
+        "link":"https://citrix.github.io/receiver-for-linux-virtual-channel-sdk/",
+        "active":false,
+        "versiontext":"13.5"
     }
 ]
