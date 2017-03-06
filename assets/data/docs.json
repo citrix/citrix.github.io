@@ -77,7 +77,7 @@
         "versiontext":""
     },
     {
-        "title":"Citrix Virtual Channel SDK for Citrix Receiver for Windows",
+        "title":"Citrix Virtual Channel SDK for Citrix Receiver for Linux",
         "description":"The Citrix Virtual Channel Software Development Kit (SDK) provides support for writing server-side applications and client-side drivers for additional virtual channels using the ICA protocol.",
         "link":"https://citrix.github.io/receiver-for-linux-virtual-channel-sdk/",
         "active":true,
