@@ -82,5 +82,12 @@
         "link":"https://citrix.github.io/receiver-for-linux-virtual-channel-sdk/",
         "active":true,
         "versiontext":"Version 13.5"
+    },
+    {
+	"title":"Command Reference for Citrix Receiver for Linux",
+	"description":"Command-line reference and parameters for Citrix Recevier for Linux 13.5",
+	"link":"https://citrix.github.io/receiver-for-linux-command-reference/",
+	"active":"true",
+	"versiontext":"Version 13.5"
     }
 ]
