@@ -5,3 +5,5 @@ github_username:  "citrixdeveloper"
 
 collections:
   categories:
+  pages:
+    output: true
