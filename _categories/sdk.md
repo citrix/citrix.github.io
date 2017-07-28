@@ -1,5 +1,5 @@
 ---
 layout: category
-title: "SDK"
+title: SDK
 ---
 test
