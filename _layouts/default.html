@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="/assets/main.css">
+    </head>
   <body>
 {{site.collections}}
     {% for category in site.categories %}
     <div>{{category.title}}</div>
     {% endfor %}
 
+    <script src="/components/jquery/dist/jquery.min.js"></script>
+	<script src="/components/tether/dist/js/tether.min.js"></script>
+    <script src="/components/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 
 </html>
