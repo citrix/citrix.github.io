@@ -5,8 +5,10 @@ github_username:  "citrixdeveloper"
 
 collections:
   categories:
-
+  pages:
+    output: true
   sass:
     load_paths:
         - _sass
         - components
+
