@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
   <body>
-
+{{site.collections}}
+    {% for category in site.categories %}
+    <div>{{category.title}}</div>
+    {% endfor %}
 
   </body>
 
