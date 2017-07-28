@@ -1,9 +1,7 @@
-title: Citrix Developer
-email: developer.citrix.com
-description: > # this means to ignore newlines until "baseurl:"
-  This is the Citrix Developer updated portal
-twitter_username: citrixdeveloper
-github_username:  citrixdeveloper
+title: "Citrix Developer"
+email: "developer.citrix.com"
+twitter_username: "citrixdeveloper"
+github_username:  "citrixdeveloper"
 
 collections:
-  categories
+  categories:
