@@ -6,12 +6,12 @@
   <body>
 
     {% for category in site.categories %}
-    <div>{{category.title}}</div>
+    {{ category.content }}
     {% endfor %}
 
-    <script src="/asset/jquery.min.js"></script>
-	<script src="/asset/tether.min.js"></script>
-    <script src="/asset/bootstrap.min.js"></script>
+    <script src="/assets/jquery.min.js"></script>
+	<script src="/assets/tether.min.js"></script>
+    <script src="/assets/bootstrap.min.js"></script>
   </body>
 
 </html>
