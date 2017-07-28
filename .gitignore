@@ -1,2 +1,6 @@
 #do not sync site directory
 _site
+#do not include the components directory
+components
+node_modules
+.sass-cache
