@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <body>
-
-
-  </body>
-
-</html>
+---
+layout: default
+title: Citrix Developer Portal
+---
