@@ -5,3 +5,8 @@ github_username:  "citrixdeveloper"
 
 collections:
   categories:
+
+  sass:
+    load_paths:
+        - _sass
+        - components
