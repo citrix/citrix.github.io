@@ -6,22 +6,26 @@ const child = require('child_process');
 gulp.task('default', function() {
     //gutil.log('== Cleaning site... ==')
     //const jekyll = child.spawn('jekyll', ['clean']);
+    var jekyll;
+
+    gutil.log('== Cleaning site... ==')
+    jekyll = child.execSync('jekyll clean');
 
     gutil.log('== Building site... ==')
-    var jekyll = child.execSync('jekyll build');
+    jekyll = child.execSync('jekyll build');
 
     
-  gutil.log('== Copying jquery files ==')
-  gulp.src('./node_modules/jquery/dist/jquery.min.js')
-    .pipe((gulp.dest('./_site/assets/')))
+    gutil.log('== Copying jquery files ==')
+    gulp.src('./node_modules/jquery/dist/jquery.min.js')
+      .pipe((gulp.dest('./_site/assets/')))
   
     gutil.log('== Copying tether files ==')
-  gulp.src('./node_modules/tether/dist/js/tether.min.js')
-    .pipe((gulp.dest('./_site/assets/')))
+    gulp.src('./node_modules/tether/dist/js/tether.min.js')
+      .pipe((gulp.dest('./_site/assets/')))
 
-  gutil.log('== Copying bootstrap files ==')
-  gulp.src('./node_modules/bootstrap/dist/js/bootstrap.min.js')
-    .pipe((gulp.dest('./_site/assets/')))
+    gutil.log('== Copying bootstrap files ==')
+    gulp.src('./node_modules/bootstrap/dist/js/bootstrap.min.js')
+      .pipe((gulp.dest('./_site/assets/')))
 
     /*
     jekyll = child.spawn('jekyll',['serve','--skip-initial-build ']);
