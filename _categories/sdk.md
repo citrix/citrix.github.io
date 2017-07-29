@@ -1,4 +1,4 @@
 ---
 title: "SDKs"
+pageurl: /pages/sdk
 ---
-test

@@ -4,15 +4,24 @@
     <body>
         {% include header.html %}
         <div class="container">
+            <div class="row">
             {% for category in site.categories%}
-            <div class="card card-outline-primary mb-3 text-center" style="width:8rem;height:8rem;">
-                <div class="card-block">
-                    <blockquote class="card-blockquote">
-                        {{ category.title }}
-                    </blockquote>
+                <div class="col">
+                    <a href="{{ category.pageurl }}">
+                    <div class="card card-outline-primary mb-3 text-center" style="width:8rem;height:8rem;">
+                        <div class="card-block">
+                            <blockquote class="card-blockquote">
+                                {{ category.title }}
+                            </blockquote>
+                        </div>
+                    </div>
+                    </a>
                 </div>
-            </div>
             {% endfor %}
+            </div>
+            <div>
+                {{ content }}
+            </div>        
         </div>
     {% include footer.html %}
     <script src="/assets/jquery.min.js"></script>
