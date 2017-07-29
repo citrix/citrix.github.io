@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="/assets/main.css">
-    </head>
-  <body>
-
-    {% for category in site.categories %}
-    {{ category.content }}
-    {% endfor %}
-
+<html lang="en">
+    {% include head.html %}
+    <body>
+        <div class="container">
+            {% for category in site.categories%}
+            <div class="card card-outline-primary mb-3 text-center" style="width:8rem;height:8rem;">
+                <div class="card-block">
+                    <blockquote class="card-blockquote">
+                        {{ category.title }}
+                    </blockquote>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    {% include footer.html %}
     <script src="/assets/jquery.min.js"></script>
 	<script src="/assets/tether.min.js"></script>
     <script src="/assets/bootstrap.min.js"></script>
