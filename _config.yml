@@ -13,4 +13,5 @@ collections:
     load_paths:
         - _sass
         - components
-
+        
+exclude: ["gulpfile.js","package.json","yarn.lock","node_modules"]
