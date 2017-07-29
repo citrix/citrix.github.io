@@ -1,5 +1,4 @@
 ---
-layout: category
-title: SDK
+title: "SDKs"
 ---
 test
