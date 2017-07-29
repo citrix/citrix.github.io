@@ -8,13 +8,9 @@ gulp.task('default', function() {
     //const jekyll = child.spawn('jekyll', ['clean']);
 
     gutil.log('== Building site... ==')
-    const jekyll = child.execSync('jekyll build');
+    var jekyll = child.execSync('jekyll build');
 
-    const jekyllLogger = (buffer) => {
-    buffer.toString()
-      .split(/\n/)
-      .forEach((message) => gutil.log('Jekyll: ' + message));
-  };
+    
   gutil.log('== Copying jquery files ==')
   gulp.src('./node_modules/jquery/dist/jquery.min.js')
     .pipe((gulp.dest('./_site/assets/')))
@@ -26,4 +22,14 @@ gulp.task('default', function() {
   gutil.log('== Copying bootstrap files ==')
   gulp.src('./node_modules/bootstrap/dist/js/bootstrap.min.js')
     .pipe((gulp.dest('./_site/assets/')))
+
+    /*
+    jekyll = child.spawn('jekyll',['serve','--skip-initial-build ']);
+
+    const jekyllLogger = (buffer) => {
+    buffer.toString()
+      .split(/\n/)
+      .forEach((message) => gutil.log('Jekyll: ' + message));
+  };
+*/
 });
