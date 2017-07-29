@@ -3,12 +3,13 @@
     {% include head.html %}
     <body>
         {% include header.html %}
+        
         <div class="container">
             <div class="row">
             {% for category in site.categories%}
                 <div class="col">
                     <a href="{{ category.pageurl }}">
-                    <div class="card card-outline-primary mb-3 text-center" style="width:8rem;height:8rem;">
+                    <div class="card card-outline-primary mb-3 text-center" style="width:7rem;height:7rem;">
                         <div class="card-block">
                             <blockquote class="card-blockquote">
                                 {{ category.title }}
