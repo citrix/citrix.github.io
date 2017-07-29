@@ -2,7 +2,7 @@
 layout: default
 title: Citrix Developer Portal
 ---
-Welcome to Citrix Developer
+# Welcome to Citrix Developer
 
 Explore SDKs, APIs, tools and solutions
 
