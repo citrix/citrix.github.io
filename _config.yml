@@ -7,6 +7,7 @@ googleanalytics:
 
 collections:
   categories:
+  sdks:
   pages:
     output: true
   sass:

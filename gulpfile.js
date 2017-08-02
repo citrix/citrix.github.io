@@ -2,6 +2,9 @@ const gulp = require('gulp');
 var gutil = require('gulp-util');
 const child = require('child_process');
 
+gulp.task('serve', function(){
+    child.execSync('jekyll serve --skip-initial-build ');
+});
 
 gulp.task('default', function() {
     //gutil.log('== Cleaning site... ==')
@@ -27,9 +30,7 @@ gulp.task('default', function() {
     gulp.src('./node_modules/bootstrap/dist/js/bootstrap.min.js')
       .pipe((gulp.dest('./_site/assets/')))
 
-    /*
-    jekyll = child.spawn('jekyll',['serve','--skip-initial-build ']);
-
+/*
     const jekyllLogger = (buffer) => {
     buffer.toString()
       .split(/\n/)
