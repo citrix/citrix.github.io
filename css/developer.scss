@@ -1,0 +1,55 @@
+---
+
+---
+
+$sdk-image: '/assets/images/gears.png';
+$tools-image: '/assets/images/tools.png';
+$opensource-image: '/assets/images/opensource.png';
+$learning-image: '/assets/images/learning.png';
+$samples-image: '/assets/images/samples.png';
+$docs-image: '/assets/images/sdkdocs.png';
+$logo-image: '/assets/images/logo.png';
+
+.jumbotron:after
+{
+    background-image: url('/assets/images/connectdevs.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    //-webkit-background-size: cover;
+    //background-size: cover;
+    content: "";
+}
+.logo
+{
+    content: url($logo-image);
+    width: 120px;
+    margin: 10px;
+}
+.sdk-circle
+{
+    content: url($sdk-image);
+}
+.learning-circle
+{
+    content: url($learning-image);
+}
+.tools-circle
+{
+    content: url($tools-image);
+}
+.opensource-circle
+{
+    content: url($opensource-image);
+}
+.samples-circle
+{
+    content: url($samples-image);
+}
+.sdkdocs-circle
+{
+    content: url($docs-image);
+}
+.sdkdocs-circle
+{
+    content: url($docs-image);
+}
