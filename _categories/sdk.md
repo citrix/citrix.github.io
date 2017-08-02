@@ -1,4 +1,5 @@
 ---
 title: "SDKs"
-pageurl: /pages/sdk
+pageurl: /pages/sdks
+color: "#D50032"
 ---
