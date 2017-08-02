@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Citrix Developer"
+---
+
+<div class="container">
+    <div class="row">
+        {% for sdk in site.sdks%}
+        <div class="col">
+            <a href="{{ category.pageurl }}">
+            <div class="card card-outline-primary mb-3 text-center rounded-0" style="width:7rem;height:7rem;">
+                <div class="card-block">
+                    <blockquote class="card-blockquote">
+                        {{ sdk.title }}
+                    </blockquote>
+                </div>
+            </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>

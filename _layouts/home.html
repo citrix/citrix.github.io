@@ -1,0 +1,55 @@
+---
+layout: default
+title: "Citrix Developer"
+---
+
+
+    <div class="jumbotron jumbotron-fluid bg-primary text-white">
+        <div style="position:absolute;top:0;left:0;backgroud-color:pink">testing</div>
+
+        <!-- style="background-image: url('/assets/images/connectdevs.png'), url('/assets/images/connectdevs.png'); background-repeat:no-repeat; background-position: left top, right;background-size: 30%, 55%;" -->
+        <!--<img src="/assets/images/connectdevs.png" width="100" />-->
+        <div class="container">
+            <h1 class="display-3">Citrix Developer</h1>
+            <p class="lead">Build great applications on great infrastructure</p>
+        </div>
+    </div>    
+<div class="container">
+    <div class="row">
+    {% for category in site.categories%}
+        <div class="col">
+            <a href="{{ category.pageurl }}">
+            <div class="card card-outline-primary mb-3 rounded-circle text-white text-center" style="width:8rem;height:8rem;background-color:{{ category.color }};border-color:{{ category.color }};">
+                <div class="card-block">
+                    <!--<blockquote class="card-blockquote">-->
+                    {% case category.title %}
+                        {% when 'SDKs' %}
+                            {% assign cssclass = 'sdk-circle' %}
+                        {% when 'Learning' %}
+                            {% assign cssclass = 'learning-circle' %}
+                        {% when 'Open Source' %}
+                            {% assign cssclass = 'opensource-circle' %}
+                        {% when 'Toolsets' %}
+                            {% assign cssclass = 'tools-circle' %}
+                        {% when 'Samples' %}
+                            {% assign cssclass = 'samples-circle' %}
+                        {% when 'SDK Docs' %}
+                            {% assign cssclass = 'sdkdocs-circle' %}
+                        {% else %}
+                            {% assign cssclass = 'default-circle' %}
+                    {% endcase %}
+                    <img class="{{ cssclass }} card-img-top" width="50" height="50" />
+                    <p class="card-text">
+                        {{ category.title }}
+                    </p>
+                    <!--</blockquote>-->
+                </div>
+            </div>
+            </a>
+        </div>
+    {% endfor %}
+    </div>
+    <div>
+        {{ content }}
+    </div>
+</div>
