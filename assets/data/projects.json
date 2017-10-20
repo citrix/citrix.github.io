@@ -13,6 +13,13 @@
     
     },
     {
+        "title":"Ansible NITRO API calls",
+        "description":"sample playbooks that make NITRO API calls using standard Ansible modules. Each playbook contains only one or two tasks. For more complete workflows tasks should be combined in a more complete playbook.",
+        "image":"https://avatars1.githubusercontent.com/u/1507452?s=200&v=4",
+        "link":"https://github.com/citrix/ansible-nitro-api-calls"
+    
+    },
+    {
         "title":"Sample of an outlook task pane that displays your Citrix applications",
         "description":"A sample that shows how to build an outlook task pane that uses the Citrix Storefront WebAPI to display the users specific set of applications. This sample also shows how to launch retrieve and launch the selected application",
         "image":"/assets/images/outlook.png",
