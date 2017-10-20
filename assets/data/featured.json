@@ -2,7 +2,7 @@
     {
         "title":"Citrix Developer for VS Code",
         "description":"An extension for Visual Studio Code that surface Citrix developer resources to help developers build on the Citrix platform.",
-        "image":"https://github.com/citrix/CitrixDeveloper-VSCode/blob/master/images/citrixicon.png",
+        "image":"/assets/images/citrixicon.png",
         "link":"https://citrix.github.io/CitrixDeveloper-VSCode/"
     },
     {
