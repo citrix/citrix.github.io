@@ -6,6 +6,13 @@
         "link":"https://citrix.github.io/CitrixDeveloper-VSCode/"
     },
     {
+        "title":"Citrix NetScaler Ansible modules",
+        "description":" Ansible modules for configuring Citrix NetScaler instances. It uses the NITRO REST API. All form factors of Citrix NetScaler are supported.",
+        "image":"https://avatars1.githubusercontent.com/u/1507452?s=200&v=4",
+        "link":"https://github.com/citrix/netscaler-ansible-modules"
+    
+    },
+    {
         "title":"Sample of an outlook task pane that displays your Citrix applications",
         "description":"A sample that shows how to build an outlook task pane that uses the Citrix Storefront WebAPI to display the users specific set of applications. This sample also shows how to launch retrieve and launch the selected application",
         "image":"/assets/images/outlook.png",
