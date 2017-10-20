@@ -1,4 +1,10 @@
 [
+     {
+        "title":"Citrix Developer for VS Code",
+        "description":"An extension for Visual Studio Code that surface Citrix developer resources to help developers build on the Citrix platform. Extension is available for free in the extension gallery from with Visual Studio Code.",
+        "image":"/assets/images/citrixicon.png",
+        "link":"https://citrix.github.io/CitrixDeveloper-VSCode/"
+    },
     {
         "title":"Sample of an outlook task pane that displays your Citrix applications",
         "description":"A sample that shows how to build an outlook task pane that uses the Citrix Storefront WebAPI to display the users specific set of applications. This sample also shows how to launch retrieve and launch the selected application",
