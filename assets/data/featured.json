@@ -1,5 +1,11 @@
 [
     {
+        "title":"Citrix Developer for VS Code",
+        "description":"An extension for Visual Studio Code that surface Citrix developer resources to help developers build on the Citrix platform.",
+        "image":"https://github.com/citrix/CitrixDeveloper-VSCode/blob/master/images/citrixicon.png",
+        "link":"https://citrix.github.io/CitrixDeveloper-VSCode/"
+    },
+    {
         "title":"XenServer",
         "description":"XenServer is and always has been based on open source software, and going forward it will be built using the upstream codebase from the Linux Foundation's  Xen Project. XenServer is a Linux distribution that is based on the Xen hypervisor, the Linux kernel, and the CentOS Linux distribution and user tools.",
         "image":"https://avatars2.githubusercontent.com/u/4669806?v=3&s=64",
