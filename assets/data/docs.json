@@ -4,7 +4,7 @@
         "description":"XenApp and XenDesktop provide an SDK based on a number of Microsoft Windows PowerShell version 3.0 snap-ins that allows you to perform the same tasks as you would with the Citrix Studio console, together with tasks you cannot do with Studio alone.",
         "link":"https://developer-docs.citrix.com/projects/delivery-controller-sdk/en/latest/",
         "active":true,
-        "versiontext":"Version 7.11"
+        "versiontext":""
     },
     {
         "title":"Citrix Receiver for HTML5 SDK",
@@ -18,7 +18,7 @@
         "description":"The AppDNA SDK enables you to provide AppDNA within a process or user interface that your users are familiar with, or within a simple web page. These topics introduce the AppDNA software development kit (SDK), describe what data is available, and how to develop using the AppDNA SDK.",
         "link":"https://developer-docs.citrix.com/projects/appdna-sdk/en/latest/",
         "active":true,
-        "versiontext":"Version 7.13"
+        "versiontext":""
     },
     {
         "title":"XenServer SDK",
@@ -35,9 +35,9 @@
         "versiontext":""
     },
     {
-        "title":"StoreFront SDK",
+        "title":"StoreFront PowerShell SDK",
         "description":"The Citrix StoreFront Web API and SDK are programming interfaces to Citrix StoreFront services.",
-        "link":"https://developer-docs.citrix.com/projects/storefront-sdk/en/latest/",
+        "link":"https://developer-docs.citrix.com/projects/storefront-powershell-sdk/en/latest/",
         "active":true,
         "versiontext":""
     },
@@ -46,14 +46,14 @@
         "description":"Use Provisioning Services' SOAP Server programming interface to manage your implementation from a command line or from scripts.",
         "link":"https://developer-docs.citrix.com/projects/provisioning-services-sdk/en/latest/",
         "active":true,
-        "versiontext":"Version 7.12"
+        "versiontext":""
     },
     {
 	      "title":"Citrix XenServer Management API",
 	      "description":"The Citrix XenServer Management API is an API for remotely configuring and controlling virtualised guests running on a XenServer pool.",
 	      "link":"https://developer-docs.citrix.com/projects/xenserver-management-api/en/latest/",
 	      "active":true,
-	      "versiontext":"Version 7.0"
+	      "versiontext":""
     },
     {
         "title":"Citrix Virtual Channel SDK for Android",
@@ -81,13 +81,13 @@
         "description":"The Citrix Virtual Channel Software Development Kit (SDK) provides support for writing server-side applications and client-side drivers for additional virtual channels using the ICA protocol.",
         "link":"https://developer-docs.citrix.com/projects/receiver-for-linux-virtual-channel-sdk/en/13.6/",
         "active":true,
-        "versiontext":"Version 13.6"
+        "versiontext":""
     },
     {
 	"title":"Command Reference for Citrix Receiver for Linux",
 	"description":"Command-line reference and parameters for Citrix Recevier for Linux 13.5",
 	"link":"https://developer-docs.citrix.com/projects/receiver-for-linux-command-reference/en/latest/",
 	"active":true,
-	"versiontext":"Version 13.5"
+	"versiontext":""
     }
 ]
