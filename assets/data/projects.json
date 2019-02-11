@@ -35,7 +35,7 @@
         "title":"Ingress Controller for Citrix NetScaler",
         "description":"This Ingress controller uses a Citrix NetScaler VPX/MPX to provide Ingress Load Balancing to Kubernetes Services. Before you begin configuring NetScaler MPX/VPX, the expectation is to have a Kubernetes cluster configured and running. The configuration has been tested on baremetal and is not expected to work for Cloud hosted cluster (GKE / AWS)",
         "image":"/assets/images/GitHub-Mark-32px.png",
-        "link":"https://github.com/citrix/kube-ingress-citrix-netscaler"
+        "link":"https://github.com/citrix/citrix-k8s-ingress-controller"
     },
     {
         "title":"Citrix Storefront API Android Sample",
