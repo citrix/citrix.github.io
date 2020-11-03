@@ -1,5 +1,11 @@
 [
      {
+        "title":"Citrix Deployment Builder",
+        "description":"Citrix provides an ingress controller for Citrix ADC MPX (hardware), Citrix ADC VPX (virtualized), and Citrix ADC CPX (containerized) for bare metal and cloud deployments. It is built around Kubernetes Ingress and automatically configures Citrix ADC based on the Ingress resource configuration.",
+        "image":"/assets/images/GitHub-Mark-32px.png",
+        "link":"https://citrix.github.io/citrix-k8s-ingress-controller/"
+    },
+     {
         "title":"Citrix Developer for VS Code",
         "description":"An extension for Visual Studio Code that surface Citrix developer resources to help developers build on the Citrix platform. Extension is available for free in the extension gallery from with Visual Studio Code.",
         "image":"/assets/images/citrixicon.png",
