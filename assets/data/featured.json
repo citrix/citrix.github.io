@@ -6,15 +6,9 @@
         "link":"https://citrix.github.io/CitrixDeveloper-VSCode/"
     },
     {
-        "title":"XenServer",
-        "description":"XenServer is and always has been based on open source software, and going forward it will be built using the upstream codebase from the Linux Foundation's  Xen Project. XenServer is a Linux distribution that is based on the Xen hypervisor, the Linux kernel, and the CentOS Linux distribution and user tools.",
-        "image":"https://avatars2.githubusercontent.com/u/4669806?v=3&s=64",
-        "link":"https://github.com/xenserver"
-    },
-    {
-        "title":"Octoblu",
-        "description":"Octoblu enables companies to create IoT services with secure real-time exchange of data. The services are built an open communications and management platform that supports a variety of protocols for physical devices to communicate seamlessly with each other, people, legacy applications, and cloud services.",
-        "image":"https://avatars2.githubusercontent.com/u/5607067?v=3&s=64",
-        "link":"https://developer.octoblu.com/"
+        "title":"Citrix Deployment Builder",
+        "description":"Citrix provides an ingress controller for Citrix ADC MPX (hardware), Citrix ADC VPX (virtualized), and Citrix ADC CPX (containerized) for bare metal and cloud deployments. It is built around Kubernetes Ingress and automatically configures Citrix ADC based on the Ingress resource configuration.",
+        "image":"/assets/images/GitHub-Mark-32px.png",
+        "link":"https://citrix.github.io/citrix-k8s-ingress-controller/"
     }
 ]
